@@ -2,7 +2,7 @@ let myButton = document.querySelector('button');
 let myHeading = document.querySelector('h1');
 
 function setUserName() {
-    let myName = prompt('여보를 어떻게 불러줬으면 좋겠나요? (고양이, 냥냥이, 애기, 유선)');
+    let myName = prompt('여보를 어떻게 불러줬으면 좋겠나요? (고양이, 냥냥이, 애기, 유선이 등..)');
     if(!myName || myName === null) {
         setUserName();
     } else {
