@@ -51,6 +51,15 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    margin: 0;
+    padding: 20px 0;
+    font-size: 30px;
+    color: white;
+    text-shadow: 3px 3px 1px black;
+    text-align: center;
+}
+
 img {
     border-radius: 25px;
     display: block;
